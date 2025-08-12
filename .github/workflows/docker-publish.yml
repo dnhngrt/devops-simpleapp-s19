@@ -32,5 +32,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/devops-simple-app:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/devops-simple-app:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/devops-simpleapp-s19:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/devops-simpleapp-s19:${{ github.sha }}
